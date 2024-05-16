@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body
+{
+	background: #77B0AA !important;
+}
+
+
+button
+{
+	margin-left: 30px !important;
+	padding:3px !important;
+	border: 2px solid black !important;
+	border-radius: 10px !important;
+	width: 2500px !important;
+	height:40px !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+
+.container-fluid .table
+{
+	background: #E8DFCA !important;
+}
+
+

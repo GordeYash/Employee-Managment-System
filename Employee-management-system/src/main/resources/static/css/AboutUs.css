@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+img
+{
+	width: 600px !important;
+	height: 500px !important;
+	margin-left: 150px !important;
+	margin-top: 30px !important;
+	border: 2px solid black !important;
+	border-radius: 20px !important;
+}
+
+p
+{
+	margin-left: 150px !important;
+	margin-top: 30px !important;	
+	font-variant: inherit !important;
+	font-family: sans-serif !important;
+}
+
+body
+{
+	background: #83A2FF !important;
+}

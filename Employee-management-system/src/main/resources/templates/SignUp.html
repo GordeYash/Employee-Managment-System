@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+	crossorigin="anonymous">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+	integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+	crossorigin="anonymous"></script>
+
+<link rel="stylesheet" th:href="@{css/SignUp.css}" />
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="container w-25 item-center mt-5 d-flex">
+		<form class="w-100 mt-5" th:action="@{/SignUp}" method="POST">
+			<div class="form-group text-center mb-5">
+				<h2>SignUp</h2>
+			</div>
+			<div class="form-group mb-3 d-flex">
+				<i class="fa-regular fa-user email"></i> <input type="text"
+					class="form-control w-75" id="exampleInputPassword1"
+					placeholder="Enter a full Name" name="uname" required="required">
+			</div>
+			<div class="form-group mb-3 d-flex">
+				<i class="fa-solid fa-phone email"></i> <input type="text"
+					class="form-control w-75" id="exampleInputPassword1"
+					placeholder="Enter Mobile no" name="phoneNo" required="required">
+			</div>
+
+			<div class="form-group mb-3 d-flex">
+				<i class="fa-regular fa-envelope email"></i> <input type="email"
+					class="form-control w-75" id="exampleInputPassword1"
+					placeholder="Enter Email" name="email" required="required">
+			</div>
+			<div class="form-group d-flex">
+				<i class="fa-solid fa-key pass"></i> <input type="password"
+					class="form-control w-75" id="exampleInputPassword2"
+					placeholder="Create password" name="password" required="required">
+			</div>
+			<div class="form-group text-center mb-3 ">
+				<a type="submit" class="btn btn-primary mt-5 mr-1 rounded-pill"
+					name="Login" th:href="@{/}">Login</a>
+				<button type="submit" class="btn btn-primary mt-5 mr-1 rounded-pill"
+					name="SignUp">Signup</button>
+
+
+			</div>
+		</form>
+
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.navbar{
+	background-color: #5DEBD7 !important;
+	padding-left:30px;
+	padding-right:30px
+}
+
+.navbar-nav
+
+{
+	margin-left: auto !important;
+}
+
+.navbar ul li a:hover
+{
+	color:#FBA834 !important;
+	background-color: #f6f6f6 !important;
+	border-radius: 10px;
+}
+.dropdown-menu
+{
+	padding: 40px !important;
+	margin: 30px !important;
+}

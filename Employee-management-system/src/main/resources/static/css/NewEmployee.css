@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body
+{
+	background: #A1C398 !important;
+}
+
+.container
+{
+	border: 2px solid threeddarkshadow !important;
+	margin-top: 50px !important;
+	background: #DDDDDD !important;
+	padding-bottom: 50px !important;
+	border-radius: 20px !important;
+}
+
+.form-group input 
+{
+	margin-left: 70px !important;
+}
+.form-group select
+{
+	margin-left: 70px !important;
+	border: 2px solid black !important;
+	border-radius: 10px !important;
+	padding:10px !important;
+}
+
+button
+{
+	margin-left: 500px !important;
+	margin-top: 15px !important;
+}

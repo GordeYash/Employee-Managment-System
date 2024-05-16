@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body
+{
+	background: url("../images/Home_Bg.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height:80vh !important;
+	background-attachment: fixed;
+	background-size: 100vh;
+	   min-height: 500px;
+	size: 300px 100px;
+}
+#quot
+{
+	color: fuchsia !important;
+	font-family: fantasy;
+	font-style: italic;
+	size:100px !important;
+	margin-top: 20px;
+	font-size: 20px;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+body
+{
+	background: #f6f6f6 !important;
+}
+.container
+{
+	margin-left: 400px !important;
+	border:2px solid black !important;
+	border-radius: 20px !important;
+	align-items: center !important; 
+	background: #E8DFCA !important;
+}
+
+form
+{
+	margin-left: 250px !important;
+}
+input {
+	margin: 10px !important;
+	border: 2px solid black !important;
+	border-radius: 10px !important;
+}
+
+button
+{
+	margin-left:250px !important; 
+}

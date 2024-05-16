@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.container {
+	border-radius: 20px !important;
+	border: 2px solid black !important;
+	background-color: #F0EBE3 !important;
+	margin-top: 170px !important;
+}
+
+body {
+	background-color: #41B06E !important;
+}
+
+.pass {
+	height: 30px !important;
+	width: 30px !important;
+	margin-top: 10px;
+	margin-left: 30px !important;
+}
+
+.email {
+	height: 30px !important;
+	width: 30px !important;
+	margin-top: 10px;
+	margin-left: 30px !important;
+}
+.btn
+{
+		margin: 30px !important;
+		
+}
